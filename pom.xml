@@ -336,7 +336,18 @@
         <maven.compiler.plugin.version>2.3.1</maven.compiler.plugin.version>
         <carbon.p2.plugin.version>1.5.3</carbon.p2.plugin.version>
     </properties>
-
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>长城数字软件产品库</name>
+            <url>http://192.168.200.69:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>长城数字软件开发库</name>
+            <url>http://192.168.200.69:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement> 
 </project>
 
 
