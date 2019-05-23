@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
   ~
   ~ Copyright (c) 2015, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
@@ -22,27 +23,27 @@
 
     <ManagementPermissions>
         <ManagementPermission>
-            <DisplayName>Workflow Management</DisplayName>
+            <DisplayName>流程管理</DisplayName>
             <ResourceId>/permission/admin/manage/identity/workflow</ResourceId>
         </ManagementPermission>
         <ManagementPermission>
-            <DisplayName>BPS Profiles</DisplayName>
+            <DisplayName>BPS 资料</DisplayName>
             <ResourceId>/permission/admin/manage/identity/workflow/profile</ResourceId>
         </ManagementPermission>
         <ManagementPermission>
-            <DisplayName>Create</DisplayName>
+            <DisplayName>创建</DisplayName>
             <ResourceId>/permission/admin/manage/identity/workflow/profile/create</ResourceId>
         </ManagementPermission>
         <ManagementPermission>
-            <DisplayName>View</DisplayName>
+            <DisplayName>查看</DisplayName>
             <ResourceId>/permission/admin/manage/identity/workflow/profile/view</ResourceId>
         </ManagementPermission>
         <ManagementPermission>
-            <DisplayName>Update</DisplayName>
+            <DisplayName>更新</DisplayName>
             <ResourceId>/permission/admin/manage/identity/workflow/profile/update</ResourceId>
         </ManagementPermission>
         <ManagementPermission>
-            <DisplayName>Delete</DisplayName>
+            <DisplayName>删除</DisplayName>
             <ResourceId>/permission/admin/manage/identity/workflow/profile/delete</ResourceId>
         </ManagementPermission>
     </ManagementPermissions>
